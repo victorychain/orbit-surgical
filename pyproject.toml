@@ -48,7 +48,7 @@ known_thirdparty = [
 ]
 known_isaaclabparty = [
     "omni.isaac.lab",
-    "omni.isaac.lab_tasks",
+    "isaaclab_tasks",
     "omni.isaac.lab_assets"
 ]
 # Imports from this repository

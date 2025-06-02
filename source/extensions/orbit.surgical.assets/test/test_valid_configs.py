@@ -8,7 +8,7 @@
 
 """Launch Isaac Sim Simulator first."""
 
-from omni.isaac.lab.app import AppLauncher, run_tests
+from isaaclab.app import AppLauncher, run_tests
 
 # launch the simulator
 app_launcher = AppLauncher(headless=True)

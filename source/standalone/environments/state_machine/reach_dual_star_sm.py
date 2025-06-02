@@ -19,7 +19,7 @@ It uses the `warp` library to run the state machine in parallel on the GPU.
 
 import argparse
 
-from omni.isaac.lab.app import AppLauncher
+from isaaclab.app import AppLauncher
 
 # add argparse arguments
 parser = argparse.ArgumentParser(description="Reach state machine for star platform environments.")
@@ -46,7 +46,7 @@ import warp as wp
 
 from omni.isaac.lab.assets import RigidObject
 
-from omni.isaac.lab_tasks.utils.parse_cfg import parse_env_cfg
+from isaaclab_tasks.utils.parse_cfg import parse_env_cfg
 
 from omni.isaac.lab.utils.math import subtract_frame_transforms
 
