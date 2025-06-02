@@ -37,7 +37,7 @@ import torch
 
 import carb
 
-from omni.isaac.lab.devices import Se3Gamepad, Se3Keyboard, Se3SpaceMouse
+from isaaclab.devices import Se3Gamepad, Se3Keyboard, Se3SpaceMouse
 import isaaclab_tasks  # noqa: F401
 from isaaclab_tasks.utils import parse_env_cfg
 

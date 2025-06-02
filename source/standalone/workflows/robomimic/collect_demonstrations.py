@@ -34,9 +34,9 @@ import gymnasium as gym
 import os
 import torch
 
-from omni.isaac.lab.devices import Se3Keyboard, Se3SpaceMouse
-from omni.isaac.lab.managers import TerminationTermCfg as DoneTerm
-from omni.isaac.lab.utils.io import dump_pickle, dump_yaml
+from isaaclab.devices import Se3Keyboard, Se3SpaceMouse
+from isaaclab.managers import TerminationTermCfg as DoneTerm
+from isaaclab.utils.io import dump_pickle, dump_yaml
 
 import isaaclab_tasks  # noqa: F401
 from isaaclab_tasks.utils.data_collector import RobomimicDataCollector
